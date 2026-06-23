@@ -1,0 +1,20 @@
+Nmap Scan Results
+=================
+
+Date: 23 June 2026
+Target: 192.168.0.1
+
+Command Used:
+nmap 192.168.0.1
+nmap -sV 192.168.0.1
+nmap -O 192.168.0.1 
+
+Results:
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    GoAhead WebServer
+
+
+Summary:
+- Web server detected on port 80 & it poses a security risk(eg. Eavesdropping, Man-in-the-Middle Attacks, Session Hijacking & Data Tampering)
+- No other common ports were open.
